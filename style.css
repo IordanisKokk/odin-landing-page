@@ -26,7 +26,7 @@ body {
 
 }
 
-.links{
+.links {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -45,10 +45,10 @@ a {
 .container-section1 img {
     border: 2px solid;
     border-color: #E5E7EB;
-    border-radius: 3%;
+    border-radius: 12px;
 }
 
-.container-section1{
+.container-section1 {
     display: flex;
     padding: 24px;
     justify-content: center;
@@ -59,7 +59,7 @@ a {
     gap: 50px;
 }
 
-.container-text{
+.container-text {
     display: flex;
     flex-direction: column;
     flex-basis: 500px;
@@ -67,12 +67,12 @@ a {
     flex-wrap: wrap;
 }
 
-.container-text h1{
+.container-text h1 {
     font-size: 48px;
     margin: 0;
 }
 
-.container-section2{
+.container-section2 {
     display: flex;
     flex-direction: column;
     padding: 24px;
@@ -86,7 +86,7 @@ a {
     font-size: 16px;
 }
 
-.info-header-container{
+.info-header-container {
     padding: 0px 150px;
     display: flex;
     flex-direction: column;
@@ -94,20 +94,22 @@ a {
     font-size: 18px;
 }
 
-.info-header-container h2{
+.info-header-container h2 {
     font-weight: 800;
     font-size: 36px;
 }
 
-.sign-up-button{
+#sign-up-button1 {
     width: 100px;
     height: 30px;
-    border-radius:10%;
+    border-radius: 10px;
     background-color: #3882f6;
     color: #fff;
+    border: none;
+    transition-duration: 0.4s;
 }
 
-.images-container{
+.images-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -118,7 +120,7 @@ a {
 
 }
 
-.image-container{
+.image-container {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -130,30 +132,30 @@ a {
     font-weight: lighter;
 }
 
-h4{
+h4 {
     font-style: italic;
 }
 
-.image-container img{
+.image-container img {
     border: 2px solid;
     border-color: #1f293777;
-    border-radius: 3%;
+    border-radius: 12px;
 }
 
-.container-section3{
+.container-section3 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     background-color: #E5E7EB;
     font-size: 36px;
-    font-family:Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
     font-style: italic;
     font-weight: lighter;
     align-items: center;
     padding: 80px;
 }
 
-.container-section3 h6{
+.container-section3 h6 {
     font-size: 30px;
     font-style: normal;
     align-self: flex-end;
@@ -161,26 +163,85 @@ h4{
     padding: 0;
 }
 
-.container-section4{
+.container-section4 {
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: #3882f6;
     margin: 50px 200px;
-    padding: 20px 100px;
+    padding: 50px 100px;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
     color: #fff;
     border-color: #1f293777;
     border-radius: 10px;
-    /* border-radius: 3%; */
 }
 
-.container-section4 h2{
+.container-section4 h2 {
     margin-bottom: 0;
 }
 
-.container-section4 .sign-up-button{
-    border-color: white;
-    border: 1px 1px
+#sign-up-button2 {
+    background-color: #3882f6;
+    border: 2px solid #fff;
+    border-radius: 12px;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+}
+
+#sign-up-button2:hover {
+    background-color: #ffffff;
+    color: #3882f6;
+}
+
+#sign-up-button1:hover {
+    background-color: #ffffff;
+    color: #3882f6;
+}
+
+button:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.container-section5{
+    display:flex;
+    flex-direction: column;
+    background: rgb(31,41,55);
+    background: linear-gradient(0deg, rgba(31,41,55,1) 0%, rgba(74,92,117,1) 100%);
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 25px;
+}
+
+.container-section5 img{
+    border-radius: 12px;
+}
+
+.container-section5 h2{
+    margin: 5px;
+    font-weight:700;
+    font-style: oblique;
+}
+
+.footer{
+    display:flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    color: rgb(179, 179, 179);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 25px;
+    font-weight: lighter;
+
 }
