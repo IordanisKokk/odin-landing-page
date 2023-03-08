@@ -168,11 +168,12 @@ h4{
     background-color: #3882f6;
     margin: 50px 200px;
     padding: 20px 100px;
-    border-radius: 3%;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
     color: #fff;
-
+    border-color: #1f293777;
+    border-radius: 10px;
+    /* border-radius: 3%; */
 }
 
 .container-section4 h2{
